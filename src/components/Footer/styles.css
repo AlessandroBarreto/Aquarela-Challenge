@@ -1,0 +1,14 @@
+.footer {
+  background: #292927;
+  height: 40px;
+  margin-top: 48px;
+}
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 152px;
+}
+
