@@ -5,17 +5,24 @@
   align-items: center;
 }
 
-.flexSN-item {
-  width: 560px;
-  height: 218px;
+.newsCard {
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(41, 41, 39, 0.05),
     0px 5px 10px rgba(41, 41, 39, 0.1);
   border-radius: 8px;
-  margin: 16px;
+  
+  min-width: 560px;
+  max-height: 218px;
 }
 
-p {
+.subNewImage {
+  width: 100%;
+  max-height: 218px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.cardText {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -24,4 +31,18 @@ p {
   color: #000000;
 }
 
-
+.newsCardButton {
+  background: #ffffff;
+  border: 1px solid #4eb2c5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  width: 80px;
+  height: 24px;
+  color: #4eb2c5;
+}
