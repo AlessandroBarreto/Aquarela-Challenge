@@ -1,12 +1,13 @@
 import React from "react";
 import "./styles.css";
 import Navbar from 'react-bootstrap/Navbar'
+import {footerData} from "../../mocks/footerData"
 
 const Footer = () => {
   return (
       <Navbar sticked="bottom" className="footer">
-        <Navbar.Text className="text" style={{color: "#FFFFFF"}} >
-          Copyright © 2020 Aquarela Inovação Tecnológica do Brasil S.A. - all rights reserved
+        <Navbar.Text className="text">
+          {footerData}
         </Navbar.Text>
       </Navbar>
   );

@@ -7,7 +7,7 @@ import "./styles.css";
 
 const NewsView = () => {
   return (
-    <section style={{ height: "100%" }}>
+    <section className="newSection">
       <MainNew />
       <Container fluid>
         <Row>

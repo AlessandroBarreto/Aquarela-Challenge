@@ -7,10 +7,10 @@ const SubNew = (props) => {
   return (
     <Card className="newsCard">
       <Row noGutters={true}>
-        <Col sm={6}>
+        <Col xs={6}>
           <img src={props.img} className="subNewImage" />
         </Col>
-        <Col sm={6}>
+        <Col xs={6}>
           <Card.Body>
             <Card.Text className="cardText">
               {props.description}
