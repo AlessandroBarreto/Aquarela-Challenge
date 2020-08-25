@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import { Row, Col, Button, Card } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 
 
 const SubNew = (props) => {
@@ -8,7 +8,7 @@ const SubNew = (props) => {
     <Card className="newsCard">
       <Row noGutters={true}>
         <Col xs={6}>
-          <img src={props.img} className="subNewImage" />
+          <img src={props.img} alt="" className="subNewImage" />
         </Col>
         <Col xs={6}>
           <Card.Body>
