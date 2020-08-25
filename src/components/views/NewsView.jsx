@@ -8,13 +8,13 @@ import "./styles.css";
 const NewsView = () => {
   return (
     <section className="newSection">
-      <MainNew />
       <Container fluid>
+        <MainNew />
         <Row>
           {subNews.map((subNew) => (
             <Col lg={6} sm={12} className="subNewCol">
               <SubNew img={subNew.img} description={subNew.description} />
-            </Col>
+            </Col> 
           ))}
         </Row>
       </Container>

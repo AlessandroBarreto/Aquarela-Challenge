@@ -1,8 +1,8 @@
-.subNewCol {
-    margin-top: 16px;
-}
-
 .newSection {
     height: 100%;
     padding: 48px;
+}
+
+.subNewCol {
+    margin-top: 16px;
 }
