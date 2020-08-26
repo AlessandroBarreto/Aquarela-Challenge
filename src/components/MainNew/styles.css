@@ -1,4 +1,4 @@
-.main-newsCard {
+.mainnew-card {
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(41, 41, 39, 0.05),
     0px 5px 10px rgba(41, 41, 39, 0.1);
@@ -6,14 +6,14 @@
   max-height: 440px;
 }
 
-.mainNewImage {
+.mainnew-image {
   width: 100%;
   max-height: 440px;
   object-fit: cover;
   height: 100%;
 }
 
-.mainNewCardText {
+.mainnew-card-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -23,12 +23,12 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .main-newsCard {
+  .mainnew-card {
     max-height: 100%;
   }
 }
 
-.mainnew-newsCardButton {
+.mainnew-card-button {
   width: 80px;
   height: 32px;
   background: #4eb2c5;
@@ -46,7 +46,7 @@
   justify-content: center;
 }
 
-.mainnew-newsCardButton:hover {
+.mainnew-card-button:hover {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -70,11 +70,11 @@
   margin-bottom: 24px;
 }
 
-.mainNewCardBody {
+.mainnew-card-body {
   padding: 26px 32px !important;
 }
 
-.paragraphsContainer {
+.paragraphs-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
