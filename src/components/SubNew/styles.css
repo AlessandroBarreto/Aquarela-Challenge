@@ -1,4 +1,4 @@
-.subNewsCard {
+.subnew-card {
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(41, 41, 39, 0.05),
     0px 5px 10px rgba(41, 41, 39, 0.1);
@@ -8,14 +8,14 @@
   padding: 24px 0;
 }
 
-.subNewImage {
+.subnew-image {
   width: 100%;
   max-height: 170px;
   object-fit: cover;
   height: 100%;
 }
 
-.subnew-cardText {
+.subnew-card-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -26,12 +26,12 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .subNewsCard {
+  .subnew-card {
     max-height: 100%;
   }
 }
 
-.subnew-newsCardButton {
+.subnew-card-button {
   background: #ffffff;
   border: 1px solid #4eb2c5;
   box-sizing: border-box;
@@ -50,7 +50,7 @@
   justify-content: center;
 }
 
-.subnew-newsCardButton:hover {
+.subnew-card-button:hover {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
