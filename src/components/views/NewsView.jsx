@@ -1,8 +1,8 @@
-import React from "./node_modules/react";
+import React from "react";
 import MainNew from "../MainNew";
 import SubNew from "../SubNew";
 import { subNews, mainNew } from "../../mocks/news";
-import { Container, Col, Row } from "./node_modules/react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import "./styles.css";
 
 const NewsView = () => {
