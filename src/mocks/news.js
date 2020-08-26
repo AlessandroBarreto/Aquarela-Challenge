@@ -6,18 +6,16 @@ import subNew4 from "../assets/subNew4.svg";
 import subNew5 from "../assets/subNew5.svg";
 import subNew6 from "../assets/subNew6.svg";
 
-const mainNew = [
-  {
-    img: mainNew1,
-    description:
-      "À primeira vista, traduzindo literalmente o stack tecnológico é uma pilha de tecnologias, como se uma fosse uma tecnologia fosse colocada em cima da outra. No entanto, o sentido real do termo significa representar o conjunto de sistemas necessários para executar um único aplicativo sem outro software adicional. Acima de tudo, um dos principais objetivos de um stack de tecnologia é melhorar a comunicação sobre como um aplicativo é construído. Além disso, o pacote escolhido de tecnologia pode conter...",
-    author: "Joni Hoppen",
-    date: "ago 11, 2020",
-    readMoreUrl: "https://www.aquare.la/o-que-e-um-stack-tecnologico/",
-  },
-];
-
-export { mainNew };
+const mainNew = {
+  img: mainNew1,
+  paragraphs: [
+    "À primeira vista, traduzindo literalmente o stack tecnológico é uma pilha de tecnologias, como se uma fosse uma tecnologia fosse colocada em cima da outra. No entanto, o sentido real do termo significa representar o conjunto de sistemas necessários para executar um único aplicativo sem outro software adicional.",
+    "Acima de tudo, um dos principais objetivos de um stack de tecnologia é melhorar a comunicação sobre como um aplicativo é construído. Além disso, o pacote escolhido de tecnologia pode conter...",
+  ],
+  author: "Joni Hoppen",
+  date: "ago 11, 2020",
+  readMoreUrl: "https://www.aquare.la/o-que-e-um-stack-tecnologico/",
+};
 
 const subNews = [
   {
@@ -72,4 +70,4 @@ const subNews = [
   },
 ];
 
-export { subNews };
+export { mainNew, subNews };

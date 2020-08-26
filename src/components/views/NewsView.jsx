@@ -1,7 +1,7 @@
 import React from "react";
 import MainNew from "../MainNew";
 import SubNew from "../SubNew";
-import { subNews } from "../../mocks/news";
+import { subNews, mainNew } from "../../mocks/news";
 import { Container, Col, Row } from "react-bootstrap";
 import "./styles.css";
 
@@ -9,11 +9,11 @@ const NewsView = () => {
   return (
     <section className="newSection">
       <Container fluid>
-        <MainNew />
+        <MainNew img={mainNew.img} paragraphs={mainNew.paragraphs} author={mainNew.author} date={mainNew.date} link={mainNew.readMoreUrl}/>
         <Row>
           {subNews.map((subNew) => (
-            <Col lg={6} sm={12} className="subNewCol">
-              <SubNew img={subNew.img} description={subNew.description} />
+            <Col md={6} sm={12} className="subNewCol">
+              <SubNew img={subNew.img} description={subNew.description} author={subNew.author} date={subNew.date} link={subNew.readMoreUrl} />
             </Col> 
           ))}
         </Row>
