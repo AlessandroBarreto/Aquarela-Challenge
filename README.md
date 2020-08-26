@@ -1,9 +1,18 @@
 # Em breve detalhes do projeto :blush:
 
+## Ferramentas: Desafio 2 -> "Uma aplicação React + Javascript de uma página de notícias"
+ 1 - React; <br />
+ 2 - Javascript; <br />
+ 3 - CSS; <br />
+ 4 - Bootstrap; <br />
+ 5 - HTML; <br />
+ 6 - Boas práticas de programação; <br />
+ 7 - Uso de States e/ou Props; <br />
+
 ## Premissas que utilizei:
-1 - Organização <br />
-2 - Usabilidade <br />
-3 - Interatividade <br />
+1 - Organização; <br />
+2 - Usabilidade; <br />
+3 - Interatividade; <br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
