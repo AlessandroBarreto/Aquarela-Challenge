@@ -16,7 +16,7 @@ const SubNew = (props) => {
               <span className="subnew-author-span">
                 por {props.author} | {props.date}
               </span>
-              <a href={props.link} className="subnew-newsCardButton">Ler mais</a>
+              <a href={props.link} target="blank" className="subnew-newsCardButton">Ler mais</a>
             </div>
           </Card.Body>
         </Col>

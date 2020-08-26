@@ -20,7 +20,7 @@ const MainNew = (props) => {
             ))}
             </div>
             <div className="mainnew-read-more-container">
-              <a href={props.link} className="mainnew-newsCardButton">Ler mais</a>
+              <a href={props.link} target="blank" className="mainnew-newsCardButton">Ler mais</a>
             </div>
           </Card.Body>
         </Col>

@@ -39,6 +39,7 @@ const subNews = [
     img: subNew3,
     description:
       "Neste artigo trazemos alguns dos principais problemas encontrados em cenários de gestão de pessoas em organizações de médio/grande porte. Ao elucidar estes pontos, buscamos colaborar com os gestores de recursos humanos e CEOs na busca de uma solução que aumente o...",
+    author: "Joni Hoppen",
     date: "jun 11, 2020",
     readMoreUrl: "https://www.aquare.la/gestao-de-pessoas-analytics/",
   },

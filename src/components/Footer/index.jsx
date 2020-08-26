@@ -5,7 +5,7 @@ import { footerData } from "../../mocks/footerData";
 
 const Footer = () => {
   return (
-    <Navbar sticked="bottom" className="footer new-footer">
+    <Navbar sticked="bottom" className="footer">
       <Navbar.Text className="text">{footerData}</Navbar.Text>
     </Navbar>
   );
