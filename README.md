@@ -1,6 +1,6 @@
 # Em breve detalhes do projeto :blush:
 
-## Ferramentas: Desafio 2 -> "Uma aplicação React + Javascript de uma página de notícias"
+## Desafio 2 -> "Uma aplicação React + Javascript de uma página de notícias"
  1 - React; <br />
  2 - Javascript; <br />
  3 - CSS; <br />
