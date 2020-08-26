@@ -1,3 +1,10 @@
+# Em breve detalhes do projeto :blush:
+
+## Premissas que utilizei:
+1 - Organização <br />
+2 - Usabilidade <br />
+3 - Interatividade <br />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
