@@ -1,6 +1,6 @@
-## Em breve detalhes do projeto :blush:
+# Em breve detalhes do projeto :blush:
 
-# Premissas que utilizei:
+## Premissas que utilizei:
 1 - Organização <br />
 2 - Usabilidade <br />
 3 - Interatividade <br />
